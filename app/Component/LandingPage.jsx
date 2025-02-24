@@ -2,22 +2,24 @@
 
 import React from 'react';
 import ReactPlayer from 'react-player';
+
 function LandingPage() {
     return (
-        <div>
-            <div className="flex items-center justify-center min-h-screen w-full h-full mb-4">
+        <div className="overflow-auto">
+            {/* Video Section */}
+            <div className="relative w-full h-[60vh] md:h-[80vh] flex items-center justify-center bg-black">
                 <ReactPlayer
                     url="https://www.youtube.com/watch?v=dftKArsWaCs"
-                    width="100vw"
-                    height="95vh"
+                    width="100%"
+                    height="100%"
                     controls
                     playing
                     loop
                     muted
                 />
-
             </div>
 
+            {/* Testimonial Section */}
             <div className='p-8 flex flex-col md:flex-row items-center gap-8 md:gap-12'>
                 <div className='w-28 h-28 md:w-36 md:h-36 rounded-full overflow-hidden shadow-lg'>
                     <img
@@ -48,8 +50,9 @@ function LandingPage() {
 
             </div>
 
+
         </div>
-    )
+    );
 }
 
-export default LandingPage
+export default LandingPage;
