@@ -13,7 +13,7 @@ function LandingPage() {
                     controls
                     playing
                     loop
-                    muted
+                    // muted
                 />
 
             </div>

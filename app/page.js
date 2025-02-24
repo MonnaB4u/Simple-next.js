@@ -5,7 +5,10 @@ import LandingPage from './Component/LandingPage';
 
 function Page() {
   return (
-    <LandingPage/>
+    <div className='w-full overflow-hidden scroll-smooth'>
+      <LandingPage />
+    </div>
+
   );
 }
 
