@@ -9,11 +9,11 @@ function LandingPage() {
                 <ReactPlayer
                     url="https://www.youtube.com/watch?v=dftKArsWaCs"
                     width="100vw"
-                    height="100vh"
+                    height="95vh"
                     controls
                     playing
                     loop
-                    // muted
+                    muted
                 />
 
             </div>
